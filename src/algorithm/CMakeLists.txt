@@ -22,7 +22,6 @@ add_subdirectory (bruteforce)
 add_subdirectory (ivf)
 add_subdirectory (pyramid)
 add_subdirectory (sparse_index)
-add_subdirectory (warp)
 add_subdirectory (simq)
 
 file (GLOB ALGORITHM_SRCS "*.cpp")
@@ -43,7 +42,6 @@ set (ALGORITHM_LIBS
         ivf
         pyramid
         sparse_index
-        warp
         simq
         PARENT_SCOPE)
 
